@@ -1,6 +1,6 @@
 from langchain_community.vectorstores import Qdrant
 from langchain_community.embeddings import OpenAIEmbeddings
-from langchain_community.chains import RetrievalQAWithSourcesChain
+from langchain.chains import RetrievalQAWithSourcesChain
 from langchain_community.llms import OpenAI
 import os
 
