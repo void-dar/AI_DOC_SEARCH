@@ -22,6 +22,6 @@ def ingest_document(file_path: str, user_id: str):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python ingestion.py <file_path> <user_id>")
+        print("Usage: python injestion.py <file_path> <user_id>")
     else:
         ingest_document(sys.argv[1], sys.argv[2])
