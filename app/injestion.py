@@ -2,7 +2,7 @@ import sys
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Qdrant
-from app.utils import parse_file
+from ..app.utils import parse_file
 
 def ingest_document(file_path: str, user_id: str):
 

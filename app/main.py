@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Header, HTTPException
 from .model import QueryInput
-from app.retriever import get_answer
+from ..app.retriever import get_answer
 
 app = FastAPI(title="AI Gateway API", version="1.0")
 
