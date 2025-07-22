@@ -1,5 +1,5 @@
-from langchain.schema import Document
-from langchain.document_loaders import PyMuPDFLoader, TextLoader
+from langchain_core.documents import Document
+from langchain_community.document_loaders import PyMuPDFLoader, TextLoader
 import os
 import email
 from bs4 import BeautifulSoup
