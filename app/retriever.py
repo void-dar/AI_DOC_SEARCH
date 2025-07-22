@@ -1,7 +1,7 @@
-from langchain.vectorstores import Qdrant
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.chains import RetrievalQAWithSourcesChain
-from langchain.llms import OpenAI
+from langchain_community.vectorstores import Qdrant
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.chains import RetrievalQAWithSourcesChain
+from langchain_community.llms import OpenAI
 import os
 
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
